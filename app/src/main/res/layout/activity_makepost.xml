@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_makepost"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey_900"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <EditText
+        android:id="@+id/edittext_makepost_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_900"
+        android:ems="10"
+        android:hint="@string/makepost_subject_edittext_hint"
+        android:inputType="textPersonName"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <View
+        android:id="@+id/divider_makepost_one"
+        style="@style/Divider"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edittext_makepost_content"
+        android:layout_width="match_parent"
+        android:layout_height="432dp"
+        android:background="@color/grey_900"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/makepost_content_edittext_hint"
+        android:inputType="textPersonName"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <View
+        android:id="@+id/divider_makepost_two"
+        style="@style/Divider"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edittext_makepost_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_900"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <View
+        android:id="@+id/divider_makepost_three"
+        style="@style/Divider"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edittext_makepost_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/grey_900"
+        android:gravity="start"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:inputType="textPersonName"
+        android:hint="Size"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+</LinearLayout>

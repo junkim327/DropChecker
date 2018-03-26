@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_schedules"
+        android:enabled="true"
+        android:icon="@drawable/ic_if_apparel_02_809695"
+        android:title="@string/droplist"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_post"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="@string/post"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+</menu>

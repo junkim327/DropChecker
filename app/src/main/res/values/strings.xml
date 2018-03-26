@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DropChecker</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="send">Send</string>
+    <string name="chats">Chats</string>
+    <string name="demo">Demo</string>
+    <string name="chat_rooms">Chat Rooms</string>
+    <string name="create">create</string>
+    <string name="test">test</string>
+    <string name="chat">Chat</string>
+    <string name="sub_items">Sub items</string>
+    <string name="settings">Settings</string>
+    <string name="droplist">Droplist</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="signed_out">sign out</string>
+    <string name="loading">loading</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="want_to_sell_post_page_title">SELL</string>
+    <string name="want_to_buy_post_page_title">BUY</string>
+    <string name="post">Post</string>
+    <string name="kith">Kith</string>
+    <string name="supreme">Supreme</string>
+    <string name="bape">Bape</string>
+    <string name="palace">Palace</string>
+    <string name="sign_up">Sign up</string>
+    <string name="signup_button_title">Create an account</string>
+    <string name="email">Email</string>
+    <string name="makepost_content_edittext_hint">What do you want to sell?</string>
+    <string name="makepost_subject_edittext_hint">Subject</string>
+    <string name="textview_fullimageview_color_title">COLOR:</string>
+    <string name="textview_fullimageview_price">UNKNOWN</string>
+    <string name="textview_login_signup_title">Don\'t have an account?</string>
+
+</resources>
